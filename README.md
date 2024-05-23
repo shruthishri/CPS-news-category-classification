@@ -10,7 +10,7 @@ Ensure you have the necessary libraries installed. You can do this by installing
 
 **1. \*\*Clone the Repository\*\***
 
-`   ````bash
+bash command
 
 git clone https://github.com/your\_username/news-category-classification.git
 
