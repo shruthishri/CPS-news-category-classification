@@ -1,6 +1,6 @@
 **CPS News Category Classification**
 
-This repository contains code for training a news category classification model using a Naive Bayes algorithm. The goal is to classify news headlines into different categories. The project includes data preprocessing, model training, evaluation, and testing.
+This repository contains code for training a news category classification model using Multinomial Naive Bayes algorithm. The goal is to classify news headlines into different categories. The project includes data preprocessing, model training, evaluation, and testing.
 
 **Prerequisites**
 
