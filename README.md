@@ -6,7 +6,7 @@ This repository contains code for training a news category classification model 
 
 Ensure you have the necessary libraries installed. You can do this by installing the dependencies listed in `requirements.txt`.
 
-\## Setup
+**Setup**
 
 **1. \*\*Clone the Repository\*\***
 
