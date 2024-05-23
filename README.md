@@ -12,9 +12,9 @@ Ensure you have the necessary libraries installed. You can do this by installing
 
 `   ````bash
 
-`   `git clone https://github.com/your\_username/news-category-classification.git
+git clone https://github.com/your\_username/news-category-classification.git
 
-`   `cd news-category-classification
+cd news-category-classification
 
 **2. Install Dependencies**
 
@@ -43,44 +43,17 @@ Place your JSON data files in the appropriate paths. For example:
 
 **Running the Script**
 
+**Main Script**
+
 Execute the main script:
 
 python news\_category\_classification.py 
-
-**Main Script**
-
-The main script **news\_category\_classification.py** performs the following functions:
-
-1. **Load Data** Loads the training and test datasets from JSON files.
-1. **Initial Data Exploration** Prints the shape, head, and info of the training data for initial inspection.
-1. **Plot Category Distribution** Visualizes the distribution of categories in the dataset.
-1. **Clean Data** Handles duplicates and null values in the dataset.
-1. **Balance Data** Resamples each category to balance the dataset.
-1. **Preprocess Text Data** Preprocesses headlines by removing HTML tags, special characters, stopwords, and performing lemmatization.
-1. **Split Data** Splits the data into training and validation sets.
-1. **Train TF-IDF Vectorizer** Trains a TF-IDF vectorizer on the training data and transforms both training and validation data.
-1. **Train Naive Bayes Model** Trains a Multinomial Naive Bayes model on the TF-IDF features.
-1. **Evaluate Model** Evaluates the model using accuracy, recall, precision, and F1 score.
-1. **Predict on Test Data** Preprocesses the test data, transforms it using the trained TF-IDF vectorizer, and makes predictions using the trained model.
-1. **Save Predictions** Saves the predictions to an Excel file.
 
 **Test Script**
 
 Execute the test script:
 
 python -m unittest news_category_classification_unittest.py
-
-The unit tests are provided in the **test\_news\_category\_classification.py** file performs the following functions:
-
-1. **load\_data(file\_path)** Loads data from a JSON file.
-1. **plot\_category\_distribution(data)** Plots the distribution of categories in the dataset.
-1. **preprocess\_text(headline)** Preprocesses the input text by removing HTML tags, special characters, stopwords, and performing lemmatization.
-1. **clean\_data(data)** Cleans the dataset by handling duplicates and null values.
-1. **balance\_data(data, categories, sample\_size, random\_state=134)** Balances the dataset by resampling each category.
-1. **plot\_author\_distribution(data)** Plots the distribution of authors in the dataset.
-1. **train\_tfidf\_vectorizer(X\_train, max\_df=0.99, min\_df=10, max\_features=5000)** Trains a TF-IDF vectorizer and transforms the data.
-1. **transform\_data(vectorizer, X)** Transforms the data using a fitted vectorizer.
-1. **evaluate\_model(y\_train, y\_val, pred\_train, pred\_test)** Evaluates the model and prints the scores.
 
 **Author**
 
