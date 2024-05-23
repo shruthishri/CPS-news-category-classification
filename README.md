@@ -43,13 +43,11 @@ Place your JSON data files in the appropriate paths. For example:
 
 **Running the Script**
 
-**Main Script**
-
-Execute the main script:
+**Main Script execution**
 
 python news\_category\_classification.py 
 
-**Test Script**
+**Test Script execution**
 
 Execute the test script:
 
@@ -57,4 +55,4 @@ python -m unittest news_category_classification_unittest.py
 
 **Author**
 
-- Shruthi Shri 
+Shruthi Shri 
