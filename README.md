@@ -8,7 +8,7 @@ Ensure you have the necessary libraries installed. You can do this by installing
 
 **Setup**
 
-**1. \*\*Clone the Repository\*\***
+**1. Clone the Repository**
 
 bash command
 
