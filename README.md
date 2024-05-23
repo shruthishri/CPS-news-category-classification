@@ -68,7 +68,7 @@ The main script **news\_category\_classification.py** performs the following ste
 
 Unit tests are provided in the **test\_news\_category\_classification.py** file. Run the tests using:
 
-python -m unittest discover 
+python -m unittest news_category_classification_unittest.py
 
 **Functions**
 
